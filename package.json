@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshams901/node.js.git"
+  },
+  "author": "Nehal Shams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nshams901/node.js/issues"
+  },
+  "homepage": "https://github.com/nshams901/node.js#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.21"
+  }
+}
