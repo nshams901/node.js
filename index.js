@@ -1,1 +1,1 @@
-const Basic = require("./Basics/basic")
+const Basic = require("./Chapter 1/basic")
