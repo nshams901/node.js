@@ -1,0 +1,23 @@
+BSON:
+1. It's optimized for storage, retrieval, and transmission across the wire.
+2. More secure than plain text JSON.
+3. More data types than JSON.
+4. Example of BSON:
+            {
+                "_id": { "$oid": "631263fa1cdb1bc....."},
+                "account_id": "MDB9557768",
+                "balance": "2043.54",
+                "transfer_complete" : [
+                    "TR638743349976",
+                    "TR546567878976",
+                    "TR764574657647",
+                    "TR648758745847",
+                    "TR638743345454",
+                ],
+                "address": [
+                    "city": "RIDGEWOOD",
+                    "ZIP": { "$numberInt": "11386"},
+                    "street": "MENAMAN ST",
+                    "number": { "$numberInt": "1712"}
+                ]
+            }

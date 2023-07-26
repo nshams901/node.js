@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/nshams901/node.js#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "fs": "^0.0.1-security",
+    "mongodb": "^5.7.0",
     "nodemon": "^2.0.21"
   }
 }
